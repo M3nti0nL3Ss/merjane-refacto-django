@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
 
 from .dto.product import ProcessOrderResponse
-from .services.implementations.order_service import OrderService
+from .services.order_service import OrderService
 
 
 @csrf_exempt

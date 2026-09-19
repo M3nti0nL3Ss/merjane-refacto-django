@@ -1,7 +1,7 @@
 from datetime import date
 
-from ...entities.product import ProductType
-from ...repositories.product_repository import ProductRepository
+from ..entities.product import ProductType
+from ..repositories.product_repository import ProductRepository
 from .notification_service import NotificationService
 
 

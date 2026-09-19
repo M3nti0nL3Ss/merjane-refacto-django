@@ -17,7 +17,7 @@ def in_days(days):
 class ProcessOrderViewTestCase(TestCase):
 
     def setUp(self):
-        patcher = patch('orders.services.implementations.product_service.NotificationService')
+        patcher = patch('orders.services.product_service.NotificationService')
         self.notifications = patcher.start().return_value
         self.addCleanup(patcher.stop)
 

@@ -4,7 +4,7 @@ from unittest.mock import Mock
 from django.test import SimpleTestCase
 
 from orders.entities.product import Product, ProductType
-from orders.services.implementations.product_service import ProductService
+from orders.services.product_service import ProductService
 
 TODAY = date.today()
 

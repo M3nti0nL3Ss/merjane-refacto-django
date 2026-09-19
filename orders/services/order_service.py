@@ -1,4 +1,4 @@
-from ...repositories.order_repository import OrderRepository
+from ..repositories.order_repository import OrderRepository
 from .product_service import ProductService
 
 
