@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from orders.my_views import process_order
+from orders.views import process_order
 
 
 urlpatterns = [
